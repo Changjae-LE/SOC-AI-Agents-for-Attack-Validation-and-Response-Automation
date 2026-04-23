@@ -1,12 +1,12 @@
 # SOC-AI-Agents-for-Attack-Validation-and-Response-Automation
 
-This project is a multi-agent AI system designed to reduce the gap between **attack detection and actual impact validation** in Security Operations Centers (SOC).
+This project is a multi-agent AI system designed to reduce the gap between attack detection and actual impact validation in Security Operations Centers (SOC).
 
 ## Overview
 
 SOCs frequently detect events such as SQL injection, command injection, path traversal, and abnormal authentication attempts. However, detection alone does not show whether the attack was blocked, failed, caused an error, or actually succeeded.
 
-This system connects **detection → validation → response** to help analysts determine real impact and prioritize action faster.
+This system connects detection → validation → response to help analysts determine real impact and prioritize action faster.
 
 ## Architecture
 
@@ -31,7 +31,7 @@ Uses the outputs of the first two agents to generate incident priority, recommen
 ## Why It Matters
 
 Traditional SOC systems usually stop at detection.  
-This project goes further by validating **what actually happened** after the detected request, helping improve triage quality, reduce manual investigation time, and prioritize incidents based on real impact.
+This project goes further by validating what actually happened after the detected request, helping improve triage quality, reduce manual investigation time, and prioritize incidents based on real impact.
 
 ## Tech Stack
 
